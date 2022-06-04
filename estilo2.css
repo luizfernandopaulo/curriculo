@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 15px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+    background: #000000;
+
+}
+
+.nome h2{
+    font-size: 30px;
+    font-family: 'ubuntu',sans-serif;
+    color: #fff;
+}
+
+.nome p{
+    font-family: 'montserrat', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu a{
+    font-family: 'ubuntu',sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.cabecalho-menu a:hover {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: #ff7512;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.cabecalho-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal img {
+    width: 400px;
+    margin: 60px 10px 0 60px;
+}
+
+
+.principal h2{
+    margin-top: 60px;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 25px;
+    border-bottom: 4px solid #ff7512;
+    width: 30px;
+    color: #ff7512;
+}
+
+.principal h3{
+    font-family: 'ubuntu',sans-serif;
+    font-size: 25px;
+    border-bottom: 4px solid #ff7512;
+    width: 30px;
+    color: #ff7512;
+}
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: -160px;
+}
+
+.conteudo-principal p{
+    font-family: 'monstserrat',sans-serif;
+    width: 500px;
+}
+
+.rodape img{
+    width: 20px;
+}
+
+.img1{
+    margin-left: 40px;
+}
+
+.img2{
+    margin-left: 40px;
+}
+
+.rodape{
+    background: #000;
+    margin-top: 94px;
+    padding: 18px;
+}
+
+.gmail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.gmail p{
+    margin-top: 2px;
+    margin-left: 200px;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+.gmail a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 13px;
+    margin-left: 200px;
+    transition: 0.5s;
+}
+
+.gmail a:hover {
+    color: #ff7512;
+}

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 15px;
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 18px;
+    background: #fff;
+}
+.nome h2{
+    color: #000;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 18px;
+    background: #fff;
+}
+.nome h2{
+    color: #000;
+    font-size: 20px;
+    font-family: 'ubuntu',sans-serif;
+}
+.cabeçalho-menu{
+    display: flex;
+    gap:32px
+}
+.cabeçalho-menu a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 15px;
+    margin-right: 10px;
+    transition: 1s;
+}
+.cabeçalho-menu a:hover{
+    background: rgb(22,22,22);
+    padding: 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+main{
+    background: #fff;
+    height: 100%;
+}
+.inicio{
+    padding: 30px;
+    background: rgb(22,22,22);
+    margin: 20px 120px 0 120px;
+    color: #fff;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.titulo h2{
+    font-family: 'ubuntu',sans-serif;
+    font-size: 20px;
+
+}
+.titulo p{
+    margin-top: 15px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    font-family: 'monstserrat',sans-serif;
+    padding: 20px 0 20px 0;
+}
+.objetivo h2{
+    font-family: 'ubuntu',sans-serif;
+    font-size: 20px;
+    margin: 60px 0 30px 0;
+}
+.objetivo p{
+    margin-top: 15px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 20px 0 20px 0;
+    font-family: 'monstserrat',sans-serif;
+}
+.formação h2{
+    font-family: 'ubuntu',sans-serif;
+    font-size: 20px;
+    margin: 60px 0 30px 0;
+}
+.formação p {
+    margin-top: 15px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 20px 0 20px 0;
+    font-family: 'monstserrat',sans-serif;
+}
+.cursos h2{
+    font-family: 'ubuntu',sans-serif;
+    font-size: 20px;
+    margin: 60px 0 30px 0;
+}
+.cursos p {
+    margin-top: 15px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 20px 0 20px 0;
+    font-family: 'monstserrat',sans-serif;
+}
